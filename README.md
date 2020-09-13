@@ -1,2 +1,2 @@
 # Toggle-Button
-The toggle button
+The toggle button toggles between day and night
