@@ -17,11 +17,6 @@ body{
   border-radius: 20px;
   transition: 0.5s;
 }
-/* .toggle.active{
-  background: #00151f;
-  border: 2px solid #fff;
-  color: white;
-} */
 .toggle:before {
   content: '';
   position: absolute;
@@ -36,8 +31,15 @@ body{
 .toggle.active:before {
   left: 25px;
 }   
-
 body.night {
   background: #00151f;
 }
-
+.content h1, p {
+	margin: 20px;
+	padding: 10px;
+	transition: 0.5s;
+}
+body.night .content h1,
+body.night .content p {
+	color: #fff;
+}
